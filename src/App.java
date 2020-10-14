@@ -32,11 +32,25 @@ public class App {
         /*
             The output of the code is 2. This is because the code calculates the maximum value in the array, and then prints the INDEX of that value. 
         */
+
+        /* ***** toPower method demonstration ***** */
+        ArrayList<Integer> examplePow = toPower(10, 3);
+        System.out.println(examplePow.toString());
     }
 
-    /*
-     * public static int[] toPower(int size, int power) {
-     * 
-     * }
-     */
+    // Method for calculating ArrayList of values equal to the indice value to a certain power
+    public static ArrayList<Integer> toPower(int size, int power) {
+        ArrayList<Integer> powerArray = new ArrayList<Integer>();
+        int currVal;
+        for (int i = 0; i < size; i++) {
+            currVal = i;
+            for (int j = 1; j < power; j++) {
+                currVal = currVal * i;
+            }
+            powerArray.add(currVal); 
+        }
+
+        return powerArray;
+    }
+    
 }
