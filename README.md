@@ -1,14 +1,4 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-## Dependency Management
-
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+## Overview
+- Program for summing all the values in an array
+- Explaining the output of given code
+- Writing a toPower method that returns an array of integers, whose size and indice values are determined by the two parameters (e.g. size 4 and power 2 returns [0, 1, 4, 9])
